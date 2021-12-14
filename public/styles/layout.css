@@ -17,15 +17,26 @@ html {
 body {
   color: #545149;
   background-color: #f4f1ec;
+  background-image: url("../images/name.png");
   font-size: 24px;
   font-family: source;
   font-family: 'Source Sans Pro', Fallback, sans-serif;
+
 }
 
-#logo {
-  font-family: 'Bungee', Fallback, sans-serif;
-}
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ main {
+   width:90%;
+   background-color: #f4f1ec;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   flex-flow: column wrap;
+
+   align-items: center;
+ }
