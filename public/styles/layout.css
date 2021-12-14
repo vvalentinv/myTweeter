@@ -21,7 +21,9 @@ body {
   font-size: 24px;
   font-family: source;
   font-family: 'Source Sans Pro', Fallback, sans-serif;
-
+  padding: 0;
+  margin: 0;
+overflow-x: hidden;
 }
 
 
@@ -35,8 +37,5 @@ body {
    background-color: #f4f1ec;
    display: flex;
    flex-direction: column;
-   align-content: center;
-   flex-flow: column wrap;
-
-   align-items: center;
+   align-content:stretch;
  }
