@@ -3,25 +3,18 @@ nav {
   width: 100vw;
   color: #FFFFFF;
   background-color: #4056A1;
-  font-size: 24px;
-  font-family: source;
+  font-size: 1em;
   font-family: 'Source Sans Pro', Fallback, sans-serif;
+  display: flex;
+  justify-content: space-between;
   align-items: flex-end;
   padding-top: 1.5em;
-  
 }
 
 #logo {
-  
   font-family: source;
   font-family: 'Bungee', Fallback, sans-serif;
   margin-left: 1.5em;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
 }
 
 .fas {

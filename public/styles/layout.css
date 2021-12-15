@@ -35,7 +35,8 @@ overflow-x: hidden;
  main {
    width:90%;
    background-color: #f4f1ec;
-   display: flex;
    flex-direction: column;
-   align-content:stretch;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
  }

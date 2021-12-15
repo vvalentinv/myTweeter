@@ -1,0 +1,22 @@
+.new-tweet form{
+  display:flex;
+  flex-flow: column wrap;
+}
+
+
+
+textarea {
+  margin-top: .25em;
+  justify-self: stretch;
+  background: transparent;
+  border-left-style: inherit;
+  border-top-style: inherit;
+  border-right-style: inherit;
+}
+
+div{
+  margin-top: .25em;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
