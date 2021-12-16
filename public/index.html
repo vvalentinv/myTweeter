@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <!-- Meta Information -->
+    <link rel="icon" type="image/png" href="/images/favicon.png"/>
     <title>Tweeter - Home Page</title>
+
 
      <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +56,7 @@
         <form method="POST" action="/tweets/">
           <textarea type="textarea" name="text" placeholder="What are you humming about?" id="tweet-text"></textarea>
           <div class="new-tweet">
-            <button class="btn btn-primary" type="submit">Tweet</button>
+            <button class="btn btn-primary" type="submit" id="tweet">Tweet</button>
             <output name="counter" class="counter" for="tweet-text">140</output>
           </div>
         </form>

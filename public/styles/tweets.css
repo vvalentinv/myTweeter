@@ -13,7 +13,7 @@ article {
 
  article.tweet p {
    margin-top: 1em;
-  
+  flex-wrap: wrap;
    margin-left: .5em;
    margin-right: .5em;
    padding-inline: 1.5em;
