@@ -10,7 +10,7 @@ List of Tweets:
 
 displays tweets in reverse-chronological order (that is, by creation time descending)
 
-Behaviour
+<strong>Behaviour</strong>
 Individual Tweets
 When the user hovers over a tweet, that tweet should display a box shadow.
 Action Icons
