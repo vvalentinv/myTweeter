@@ -31,14 +31,14 @@ When a user clicks the Compose button in the Navigation Bar:
 if the Compose Tweet box is currently hidden, then it is shown, and the textarea inside it is auto-focused
 
 ##Screenshots
-
+"CSS Features"
 !["CSS Features"](https://github.com/vvalentinv/myTweeter/blob/master/docs/CssFeatures.png)
-
+"Error Slide On empty Tweet Submission"
 !["Error Slide On empty Tweet Submission"](https://github.com/vvalentinv/myTweeter/blob/master/docs/errorSlideOnEmptyTweet.png)
-
+"Error Slide On Maximum Number Of Allowed Characters Reached"
 !["Error Slide On Maximum Number Of Allowed Characters Reached"](https://github.com/vvalentinv/myTweeter/blob/master/docs/errorSlideOnMaxCharacterLimitReached.png)
-
+"Page Layout For Screens Wider Than 1024"
 !["Page Layout For Screens Wider Than 1024"](https://github.com/vvalentinv/myTweeter/blob/master/docs/over1024screenWidth.png)
-
+"Page Layout For Screens Under 1024 Width"
 !["Page Layout For Screens Under 1024 Width"](https://github.com/vvalentinv/myTweeter/blob/master/docs/under1024screenWidth.png)
 
