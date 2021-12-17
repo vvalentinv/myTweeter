@@ -66,9 +66,6 @@ const getTweets = (method, url) => {
     });
 };
 
-
-
-
 jQuery(document).ready(function() {
   //populate the divs with their respective error messages to avoid the delay caused by the error trigger
   $("#error1").text("The tweet must contain at least one character");
@@ -99,7 +96,7 @@ jQuery(document).ready(function() {
         //retrieve twets after post of new tweet completed and clear the textarea and its counter
         getTweets('GET', URL);
         $('#tweet-text').val('');
-        $('#counter1').text('140');
+        $('#counter1').val();
       });
     }
   });
