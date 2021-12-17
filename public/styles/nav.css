@@ -3,7 +3,8 @@ nav {
   height: 120px;
   width: 100vw;
   color: #FFFFFF;
-  background-color: #4056A1;
+  background-color: #D49B17;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
   font-size: 1em;
   font-family: 'Source Sans Pro', Fallback, sans-serif;
   display: flex;
@@ -32,4 +33,23 @@ nav .fas {
   height: 50px;
   margin-right: 1.5em;
   align-items: center;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    
+    background-color: #4056A1;
+  }
+
+  #user   {
+    width: 33.3%;
+    float: left;
+  }
+
+  main {
+    width: 66.7%;
+    float: right;
+  }
+
 }

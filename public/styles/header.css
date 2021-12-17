@@ -13,3 +13,22 @@ background-image: url("https://www.transparenttextures.com/patterns/brushed-alum
 .avatar {
   margin-top: 1em;
 }
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    
+    background-color: #4056A1;
+  }
+
+  #user   {
+    
+    width: 33.3%;
+    float: left;
+  }
+
+  main {
+    width: 66.7%;
+    float: right;
+  }
+
+}
