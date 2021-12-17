@@ -39,3 +39,12 @@ overflow-x: hidden;
    justify-content: center;
    margin: auto;
  }
+
+ #error1, #error2{
+   display:none;
+   justify-content: center;
+   align-items: center;
+  min-height: 2em;
+	color: #D8000C;
+	background-color: #FFBABA;
+}

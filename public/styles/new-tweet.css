@@ -23,3 +23,8 @@ div.new-tweet{
   padding-top: .5em;
   border-top: solid;
 }
+
+
+.redCounter {
+  color:red;
+}
