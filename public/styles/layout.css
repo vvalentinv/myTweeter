@@ -52,7 +52,6 @@ overflow-x: hidden;
 @media only screen and (min-width: 1024px) {
   nav {
     width: 100%;
-    
   }
 
   body {
@@ -68,7 +67,8 @@ overflow-x: hidden;
   }
 
   main {
-    margin-top: 120px;
+   
+    margin-top: 200px;
     padding-right: .5em;
     padding-left: .5em;
     width: 70%;

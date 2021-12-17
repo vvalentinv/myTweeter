@@ -78,6 +78,7 @@ jQuery(document).ready(function() {
   $('#tweet-text').focus();
   getTweets('GET', URL);
 
+
   // event listener for for form submit
   $('.new-tweet form').on('submit', function(event) {
 
