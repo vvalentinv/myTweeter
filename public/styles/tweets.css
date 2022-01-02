@@ -17,6 +17,7 @@ article {
    margin-left: .5em;
    margin-right: .5em;
    padding-inline: 1.5em;
+   word-break: break-all;
 }
 
 div.arrange-to-top {

@@ -13,6 +13,7 @@ nav {
   padding-top: 1.5em;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
+  padding-bottom: .5em;
 }
 
 #logo {
@@ -33,6 +34,7 @@ nav .fas {
   height: 50px;
   margin-right: 1.5em;
   align-items: center;
+  
 }
 
 
