@@ -82,12 +82,12 @@ jQuery(document).ready(function() {
     // prevent the default behavior of the form submission
     event.preventDefault();
 
-    const tweetSize = $('#tweet-text').val();
+    const currentTweetSize = $('#tweet-text').val();
     //prevent the post of an invalid tweet
     //return alert("the tweet must contain at least one character and no more than 140");
-    if (tweetSize.length < 1) {
+    if (currentTweetSize.length < 1) {
       $("#error1").slideDown(700);
-    } else if (tweetSize.length > 140) {
+    } else if (currentTweetSize.length > tweetSize) {
       $("#error2").slideDown(700);
     } else {
       const data = $(this).serialize();
@@ -96,7 +96,7 @@ jQuery(document).ready(function() {
         //retrieve twets after post of new tweet completed and clear the textarea and its counter
         getTweets('GET', URL);
         $('#tweet-text').val('');
-        $('#counter1').val();
+        $('#counter1').val(tweetSize);
       });
     }
   });

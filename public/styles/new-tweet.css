@@ -3,8 +3,6 @@
   flex-flow: column wrap;
 }
 
-
-
 textarea {
    margin-top: .25em;
   justify-self: stretch;
@@ -23,7 +21,6 @@ div.new-tweet{
   padding-top: .5em;
   border-top: solid;
 }
-
 
 .redCounter {
   color:red;
